@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="top_icon">
+            <div class="options">
+                <span class="times">X</span>
+                <span class="open">O</span>
+            </div>
+           
+            <button class="btn"><span>X</span>Turn</button>
+            <button id="reset" class="btn-btn">
+                <i class="bi bi-arrow-clockwise"></i>
+            </button>
+        </div>
+
+        <div class="board">
+            <button class="card"></button>
+            <button class="card"></button>
+            <button class="card"></button>
+            <button class="card"></button>
+            <button class="card"></button>
+            <button class="card"></button>
+            <button class="card"></button>
+            <button class="card"></button>
+            <button class="card"></button>
+            <!-- <button class="card_sky"><span class="play">player 1</span> </button>
+            <button class="card_white"><span class="play">Ties</span></button>
+            <button class="card_yellow"><span class="play">Player 2</span></button> -->
+        </div>
+        <form>
+            <select id="player1_input" value="X" class="card_white">
+                <option value="X" name="playerOne"  class="btn">X</option>
+                <option value="O" name="playerTwo"  class="btn">O</option>
+            </select>
+        </form>
+            <!-- <div id="playersOption" class="card_yellow">
+                
+            </div> -->
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
